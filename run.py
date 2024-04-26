@@ -1,3 +1,54 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+tasks = []
+
+def addTask():
+    new_task = input("Enter the task: ")
+    tasks.append(new_task)
+    print(f"Task '{new_task}' added successfully")
+
+def listTasks():
+    if not tasks:
+        print("No tasks")
+    else:
+        print("List of tasks")
+        for index, task in enumerate(tasks):
+            print(f" task #{index}. {task}")
+
+def deleteTask():
+    listTasks()
+    try:
+        taskToDelete = int(input("choose the number you want to delete:"))
+        if taskToDelete >=0 and taskToDelete < len(tasks):
+            tasks.pop(taskToDelete)
+            print(f"task #{taskToDelete} deleted successfully")
+            
+        else:
+            print(f"task #{taskToDelete} does not exist")
+    except:
+        print("invalid input")
+
+if __name__ == "__main__":
+    print("Welcome to the to do-list")
+    while True:
+        print("\n")
+        print("please select one of the following options")
+        print("------------------------")
+        print("1. Add a task")
+        print("2. delete a task")
+        print("3. list tasks")
+        print("4. Exit")
+
+        choice = input("Enter your choice: ")
+
+        if(choice == "1"):
+            addTask()
+        elif(choice == "2"):
+            deleteTask()
+        elif(choice == "3"):
+            listTasks()
+        elif(choice == "4"):
+            break
+           
+        else:
+            print("Invalid input, please try again.") 
+
+    print("Thank you for using the to do-list")
