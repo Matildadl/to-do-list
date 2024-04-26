@@ -1,3 +1,5 @@
+from colorama import Fore, Style
+
 tasks = []
 
 def addTask():
@@ -7,11 +9,11 @@ def addTask():
 
 def listTasks():
     if not tasks:
-        print("No tasks")
+        print(Fore.RED +"No tasks" + Style.RESET_ALL)
     else:
-        print("List of tasks")
+        print(Fore.YELLOW + "List of tasks" + Style.RESET_ALL)
         for index, task in enumerate(tasks):
-            print(f" task #{index}. {task}")
+            print(Fore.BLUE + f" task #{index}. {task}" + Style.RESET_ALL)
 
 def deleteTask():
     listTasks()
