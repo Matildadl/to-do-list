@@ -4,6 +4,7 @@ tasks = []
 
 def addTask():
     new_task = input("Enter the task: ")
+    priority = input("Enter the priority: ")
     tasks.append(new_task)
     print(f"Task '{new_task}' added successfully")
 
@@ -12,6 +13,7 @@ def listTasks():
         print(Fore.RED +"No tasks" + Style.RESET_ALL)
     else:
         print(Fore.YELLOW + "List of tasks" + Style.RESET_ALL)
+        sorted_tasks = sorted(tasks)(tasks, key=lambda task: task['priority'])
         for index, task in enumerate(tasks):
             print(Fore.BLUE + f" task #{index}. {task}" + Style.RESET_ALL)
 
