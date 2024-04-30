@@ -18,6 +18,11 @@ Whether you're a developer looking for a customizable todo list solution or a us
  * priority from 1->
 * Easy to read with the different colour on tasks.
 
+### user stories:
+* first time user: easy access and easy to understand
+* returning user: use it to have priorities on tasks 
+* frequent user: ( need future feuture) want to save task to later.
+
 <hr>
 
 ## Flowchart:
