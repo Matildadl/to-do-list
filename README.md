@@ -18,10 +18,15 @@ Whether you're a developer looking for a customizable todo list solution or a us
  * priority from 1->
 * Easy to read with the different colour on tasks.
 
-### user stories:
-* first time user: easy access and easy to understand
-* returning user: use it to have priorities on tasks 
-* frequent user: ( need future feuture) want to save task to later.
+### User Stories:
+* First Time User: Easy access and easy to understand.
+* First Time User: List tasks.
+* First Time User: Delete task
+
+* Returning User: Use it to have priorities on tasks. 
+* Returning User: Delete task with priorities.
+
+* Frequent User: ( need future feuture) Want to save task-list to later.
 
 <hr>
 
@@ -70,9 +75,9 @@ Whether you're a developer looking for a customizable todo list solution or a us
 * Python
 
 ### Tools:
-* drawoi: for flowcharts
-* VSCode: For writing and editing code
-* Github: employed for code deployment
+* Drawoi: For flowcharts
+* VSCode: for writing and editing code
+* Github: Employed for code deployment
 * Heroku: This projekt was deployed with Heroku using Code institutes Mock terminal as provided with The Python Essentials template
 
 <hr>
@@ -111,4 +116,9 @@ Whether you're a developer looking for a customizable todo list solution or a us
 
 ## Credits:
 * I used https://www.youtube.com/watch?v=aEIHZDv_23U to inspiration for this To Do-List, and then I added my own styles to it.
+
+## Thank you:
+* Slack-community
+* My partner for being so understanding
+
 
