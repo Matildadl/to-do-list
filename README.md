@@ -45,6 +45,7 @@ Whether you're a developer looking for a customizable todo list solution or a us
 ## Future Feautures:
 * Custom reminders: Allow users to set their own reminders and notifications for specific tasks or deadlines.
 * Collaborative work: Enable multiple users to share and collaborate on to-do lists for common projects or tasks.
+* possibility to save Task-list for later.
 
 <hr>
 
