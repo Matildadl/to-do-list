@@ -4,17 +4,33 @@ functions added: priority and colour
 
 
 ### Todo List with Priority and Colors
+## Introduction
 This Python project implements a feature-rich todo list application that allows users to efficiently manage their tasks by assigning priorities and colors. With a user-friendly command-line interface, users can seamlessly add, prioritize, and categorize tasks to stay organized and focused on their objectives.
 
 Whether you're a developer looking for a customizable todo list solution or a user seeking a flexible task management tool, this project offers a simple yet powerful solution to streamline your workflow and enhance productivity.
-
-### Introduction: 
-### Installation: 
+ 
 ### Usage: 
 ### Features: 
+* Priority 
+* Colour for easy visibility
+
+### Future Feautures:
+* Custom reminders: Allow users to set their own reminders and notifications for specific tasks or deadlines.
+* Collaborative work: Enable multiple users to share and collaborate on to-do lists for common projects or tasks.
+
+### Tools:
+##  Languages:
+* Python
+
+## Tools:
+* drawoi: for flowcharts
+* VSCode: For writing and editing code
+* Github: employed for code deployment
+* Heroku: This projekt was deployed with Heroku using Code institutes Mock terminal as provided with The Python Essentials template
 ### Examples: 
 ### Contribution: 
-### License: 
+### Credits:
+* I used https://www.youtube.com/watch?v=aEIHZDv_23U to inspiration for this To Do-List, and then I added my own styles to it.
 
 ### Errors in pep8-validator:
 5:E302 expected 2 blank lines, found 1
