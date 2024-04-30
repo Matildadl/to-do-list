@@ -12,6 +12,11 @@ Whether you're a developer looking for a customizable todo list solution or a us
 <hr>
 
 ## Usage: 
+* Simple App to make a To do-list with.
+ * Make different task-lists 
+* possiblity to make priorities within the applikation
+ * priority from 1->
+* Easy to read with the different colour on tasks.
 
 <hr>
 
