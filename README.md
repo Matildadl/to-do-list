@@ -11,11 +11,10 @@ Whether you're a developer looking for a customizable todo list solution or a us
  
 <hr>
 
-The To Do-List:
-
-<link href="https://to-do-list123-c5071acf7cf9.herokuapp.com/">
+[The To Do-List:](https://to-do-list123-c5071acf7cf9.herokuapp.com/)
 
 <hr>
+
 ## Usage: 
 * Simple App to make a To do-list with.
  _Make different task-lists_ 
