@@ -13,20 +13,18 @@ Whether you're a developer looking for a customizable todo list solution or a us
 
 ## Usage: 
 * Simple App to make a To do-list with.
- * Make different task-lists 
-* possiblity to make priorities within the applikation
- * priority from 1->
+ _Make different task-lists_ 
+* Possiblity to make priorities within the application
+ _Priority from 1->_
 * Easy to read with the different colour on tasks.
 
 ### User Stories:
-* First Time User: Easy access and easy to understand.
-* First Time User: List tasks.
-* First Time User: Delete task
-
-* Returning User: Use it to have priorities on tasks. 
-* Returning User: Delete task with priorities.
-
-* Frequent User: ( need future feuture) Want to save task-list to later.
+* First Time User: *As a first-time user, I want easy access to the application and simple instructions to understand how to use it.*
+* First Time User: *As a first-time user, I want to be able to list my tasks to have an overview of what I need to do.*
+* First Time User: *As a first-time user, I want to be able to delete tasks that I have completed or no longer need.*
+* Returning User: *As a returning user, I want to be able to prioritize my tasks to focus on the most important ones first.*
+* Returning User: *As a returning user, I want to be able to delete tasks with different priorities to manage my task list efficiently.*
+* Frequent User (for future features): *As a frequent user, I want to be able to save my task lists to come back to them later and continue my work from where I left off.*
 
 <hr>
 
@@ -42,7 +40,7 @@ Whether you're a developer looking for a customizable todo list solution or a us
 
 <hr>
 
-## Future Feautures:
+## Future Features:
 * Custom reminders: Allow users to set their own reminders and notifications for specific tasks or deadlines.
 * Collaborative work: Enable multiple users to share and collaborate on to-do lists for common projects or tasks.
 * possibility to save Task-list for later.
@@ -51,21 +49,34 @@ Whether you're a developer looking for a customizable todo list solution or a us
 
 ### Errors in pep8-validator:
 * 5:E302 expected 2 blank lines, found 1
+    *added 1 more blank line*
 * 11: E302 expected 2 blank lines, found 1
+    *added 1 more blank line*
 * 13: E225 missing whitespace around operator
+    *added whitespace around operator*
 * 18: E501 line too long (113 > 79 characters)
+    *I did two lines instead of one long*
 * 20: E302 expected 2 blank lines, found 1
+    *added 1 more blank line*
 * 24: E225 missing whitespace around operator
+    *added whitespace around operator*
 * 27: W293 blank line contains whitespace
+    * Delete whitespace*
 * 30: E722 do not use bare 'except'
+    *added value to 'except' (valueError, indexError) and also change my code to more readable*
 * 33: E305 expected 2 blank lines after class or function definition, found 1
+    *added 1 blank line*
 * 46: E275 missing whitespace after keyword
 * 48: E275 missing whitespace after keyword
 * 50: E275 missing whitespace after keyword
 * 52: E275 missing whitespace after keyword
+    *added whitespace on all 4*
 * 54: W293 blank line contains whitespace
+    *deleted whitespace*
 * 56: W291 trailing whitespace
+    *deleted extra blankspace*
 * 58: W292 no newline at end of file
+    *added 1 new line in pep8, in vscode I already have this*
 
 ## Fixed all the bugs and pep8 said 0 bugs.
 <img src="images\pep8.png">
