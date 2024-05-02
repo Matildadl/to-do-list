@@ -48,35 +48,35 @@ Whether you're a developer looking for a customizable todo list solution or a us
 <hr>
 
 ### Errors in pep8-validator:
-* 5:E302 expected 2 blank lines, found 1
-    *added 1 more blank line*
-* 11: E302 expected 2 blank lines, found 1
-    *added 1 more blank line*
-* 13: E225 missing whitespace around operator
-    *added whitespace around operator*
-* 18: E501 line too long (113 > 79 characters)
+* 5:E302 expected 2 blank lines, found 1:
+    *Added 1 more blank line*
+* 11: E302 expected 2 blank lines, found 1:
+    *Added 1 more blank line*
+* 13: E225 missing whitespace around operator:
+    *Added whitespace around operator*
+* 18: E501 line too long (113 > 79 characters):
     *I did two lines instead of one long*
-* 20: E302 expected 2 blank lines, found 1
-    *added 1 more blank line*
-* 24: E225 missing whitespace around operator
-    *added whitespace around operator*
-* 27: W293 blank line contains whitespace
-    * Delete whitespace*
-* 30: E722 do not use bare 'except'
-    *added value to 'except' (valueError, indexError) and also change my code to more readable*
-* 33: E305 expected 2 blank lines after class or function definition, found 1
-    *added 1 blank line*
-* 46: E275 missing whitespace after keyword
-* 48: E275 missing whitespace after keyword
-* 50: E275 missing whitespace after keyword
-* 52: E275 missing whitespace after keyword
-    *added whitespace on all 4*
-* 54: W293 blank line contains whitespace
-    *deleted whitespace*
-* 56: W291 trailing whitespace
-    *deleted extra blankspace*
-* 58: W292 no newline at end of file
-    *added 1 new line in pep8, in vscode I already have this*
+* 20: E302 expected 2 blank lines, found 1:
+    *Added 1 more blank line*
+* 24: E225 missing whitespace around operator:
+    *Added whitespace around operator*
+* 27: W293 blank line contains whitespace:
+    *Delete whitespace*
+* 30: E722 do not use bare 'except':
+    *Added value to 'except' (valueError, indexError) and also change my code to more readable*
+* 33: E305 expected 2 blank lines after class or function definition, found 1.
+    *Added 1 blank line*
+* 46: E275 missing whitespace after keyword.
+* 48: E275 missing whitespace after keyword.
+* 50: E275 missing whitespace after keyword.
+* 52: E275 missing whitespace after keyword:
+    *Added whitespace on all 4*
+* 54: W293 blank line contains whitespace:
+    *Deleted whitespace*
+* 56: W291 trailing whitespace:
+    *Deleted extra blankspace*
+* 58: W292 no newline at end of file:
+    *Added 1 new line in pep8, in vscode I already have this*
 
 ## Fixed all the bugs and pep8 said 0 bugs.
 <img src="images\pep8.png">
