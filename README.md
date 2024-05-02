@@ -147,6 +147,7 @@ Whether you're a developer looking for a customizable todo list solution or a us
 
 ## Credits:
 * I used https://www.youtube.com/watch?v=aEIHZDv_23U to inspiration for this To Do-List, and then I added my own styles to it.
+* Slack-community for being helpful when I had problems with my code.
 
 ## Thank you:
 * Slack-community
