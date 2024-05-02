@@ -1,15 +1,29 @@
-
 <img src="images\FireShot Capture 010 - Am I Responsive_ - ui.dev.png">
 
 <hr>
 
-## Todo List with Priority and Colors
-### Introduction
+## Table of Contents
+- [Introduction](#introduction)
+- [The Application](#the-application)
+- [Usage](#usage)
+- [User Stories](#user-stories)
+- [Flowchart](#flowchart)
+- [Features](#features)
+- [Future Features](#future-features)
+- [Errors in pep8-validator](#errors-in-pep8-validator)
+- [Technology](#technology)
+- [Examples](#examples)
+- [Credits](#credits)
+- [Thank You](#thank-you)
+
+## Introduction
 This Python project implements a feature-rich todo list application that allows users to efficiently manage their tasks by assigning priorities and colors. With a user-friendly command-line interface, users can seamlessly add, prioritize, and categorize tasks to stay organized and focused on their objectives.
 
 Whether you're a developer looking for a customizable todo list solution or a user seeking a flexible task management tool, this project offers a simple yet powerful solution to streamline your workflow and enhance productivity.
  
 <hr>
+
+## The Application
 
 [The To Do-List:](https://to-do-list123-c5071acf7cf9.herokuapp.com/)
 
@@ -137,5 +151,3 @@ Whether you're a developer looking for a customizable todo list solution or a us
 ## Thank you:
 * Slack-community
 * My partner for being so understanding
-
-
